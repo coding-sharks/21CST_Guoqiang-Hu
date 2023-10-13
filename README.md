@@ -37,37 +37,6 @@ conda create -n wekws python=3.8
 conda activate wekws
 pip install -r requirements.txt
 conda install pytorch=1.10.0 torchaudio=0.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge
-```
-
-## Dataset
-
-We plan to support a variaty of open source wake-up word datasets, include but not limited to:
-
-* [Hey Snips](https://github.com/sonos/keyword-spotting-research-datasets)
-* [Google Speech Command](https://arxiv.org/pdf/1804.03209.pdf)
-* [Hi Miya(你好米雅)](http://www.aishelltech.com/wakeup_data)
-* [Hi Xiaowen(你好小问)](http://openslr.org/87/)
-
-All the well-trained models on these dataset will be made public avaliable.
-
-
-## Runtime
-
-We plan to support a variaty of hardwares and platforms, including:
-
-* Web browser
-* x86
-* Android
-* Raspberry Pi
-
-## Discussion
-
-For Chinese users, you can scan the QR code on the left to follow our offical account of WeNet.
-We also created a WeChat group for better discussion and quicker response.
-Please scan the QR code on the right to join the chat group.
-
-| <img src="https://github.com/wenet-e2e/wenet-contributors/blob/main/wenet_official.jpeg" width="250px"> | <img src="https://github.com/wenet-e2e/wenet-contributors/blob/main/wekws/menglong.jpg" width="250px"> |
-| ---- | ---- |
 
 ## Reference
 
